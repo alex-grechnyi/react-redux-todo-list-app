@@ -1,0 +1,23 @@
+.taskWrapper {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.btnWrapper {
+    flex: 0 1 155px;
+}
+.taskBodyWrapper {
+    flex: 1 1 50px;
+    word-break: break-all;
+    margin-right: 3px;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    vertical-align: middle;
+}
+.titleBodyImportant {
+    color: cornflowerblue;
+    font-weight: bolder;
+}
+.titleBodyDone {
+    text-decoration: line-through;
+}

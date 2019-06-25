@@ -1,0 +1,10 @@
+.appWrapper {
+    font-family: cursive;
+    max-width: 768px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 90px auto auto auto;
+    grid-template-columns: 1fr auto;
+    grid-template-areas: "h h" "s f" "t t" "a a";
+}
+

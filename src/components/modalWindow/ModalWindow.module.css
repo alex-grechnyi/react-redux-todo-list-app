@@ -1,0 +1,35 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 50px;
+    z-index: 1;
+}
+.modal {
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 400px;
+    min-Height: 190px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+}
+.modalContentWrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.modalBodyWrapper {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 40px;
+}
+.formWrapper {
+    flex: 1 1 70px;
+}
+.btnWrapper {
+    flex: 0 1 45px;
+}

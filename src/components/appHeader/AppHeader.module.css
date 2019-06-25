@@ -1,0 +1,4 @@
+.appHeaderWrapper {
+    grid-area: h;
+    text-align: center;
+}

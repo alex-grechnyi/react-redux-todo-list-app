@@ -1,0 +1,12 @@
+.addFormWrapper {
+    grid-area: a;
+    margin-top: 7px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.formWrapper {
+    flex: 1 1 100px;
+}
+.btnWrapper {
+    flex: 0 1 100px;
+}
