@@ -22,7 +22,7 @@ const ItemAddForm = (props) => {
                 <input onChange={onChange} value={props.newTitleBody} onKeyDown={ifEnter}
                        placeholder="What else need to be done?" className="form-control"/>
             </div>
-            <div className={styles.btnWrapper}>
+            <div>
                 <AddBtn onClick={props.newTitleBody !== '' ? onSendTask : null}/>
                 <ImportantBtn onClick={toggleIsImportant}/>
             </div>

@@ -47,7 +47,7 @@ const TodoListItem = (props) => {
             <div className={styles.taskBodyWrapper}>
                 <span className={classNames.trim()}>{props.title}</span>
             </div>
-            <div className={styles.btnWrapper}>
+            <div>
                 <DeleteBtn onClick={onDelete}/>
                 <UpdateBtn onClick={onEdit}/>
                 <span onClick={toggleIsImportant}>
